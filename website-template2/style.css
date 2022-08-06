@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url("imgs/bg.jpg"), url("imgs/bg-lowRes.jpg");
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    background-attachment: fixed;
+    background-size: cover;
+}

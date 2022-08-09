@@ -142,3 +142,7 @@ body::before {
 .post__btn--featured {
     font-size: 0.83125rem;
 }
+
+.contact-form {
+    /* background-color: #f5f5f5; */
+}

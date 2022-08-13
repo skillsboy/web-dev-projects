@@ -16,11 +16,11 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    <nav class="page-nav"></nav>
-
     <header class="page-header">
         <h1 class="page-header__h1">
             USE ME
@@ -34,6 +34,25 @@
         </p>
     </header>
 
+    <nav id="page-nav" class="page-nav">
+        <div id="page-nav__overlay" class="page-nav__overlay"></div>
+        <div class="page-nav__wrap">
+            <button id="page-nav__close-btn" type="button" class="fa-solid fa-xmark page-nav__close"></button>
+            <section class="page-nav__content">
+                <ul class="page-nav__links">
+                    <li><a class="page-nav__link--active" href="">Main Page</a></li>
+                    <li><a href="">Page 1</a></li>
+                    <li><a href="">Page 2</a></li>
+                </ul>
+                <ul class="page-nav__socials">
+                    <li><a href="#" alt="twitter" class="fa-brands fa-twitter contact-details__icon"></a></li>
+                    <li><a href="#" alt="facebook" class="fa-brands fa-facebook contact-details__icon"></a></li>
+                    <li><a href="#" alt="instagram" class="fa-brands fa-instagram contact-details__icon"></a></li>
+                    <li><a href="#" alt="github" class="fa-brands fa-github contact-details__icon"></a></li>
+                </ul>
+            </section>
+        </div>
+    </nav>
 
     <main class="page-main">
         <section class="main-content">
@@ -44,7 +63,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi cumque, aspernatur ratione
                     nesciunt, perspiciatis aperiam labore voluptates atque enim earum vitae!
                 </p>
-                <a href="javascript:void(0)" class="post__img-link"><img class="post__img"
+                <a href="javascript:void(0)" class="post__img-link"><img class="post__img  post__img--featured"
                         src="https://media.istockphoto.com/photos/generic-modern-suv-car-in-concrete-garage-picture-id1307086567"
                         alt=""></a>
                 <a href="javascript:void(0)" class="post__btn post__btn--featured">More info</a>
@@ -150,6 +169,8 @@
             </ul>
         </section>
     </footer>
+
+    <button id="page-nav-hamb" type="button" class="hamburguer-btn fa-solid fa-bars"></button>
 </body>
 
 </html>

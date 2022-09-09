@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply text-neutral-200;
+		@apply tracking-wider;
+		@apply box-border;
+	}
+
+	h1 {
+		@apply text-2xl;
+		@apply tracking-widest;
+		@apply uppercase;
+	}
+
+	h3 {
+		@apply uppercase;
+		@apply text-base;
+		@apply font-bold;
+	}
+
+	h4 {
+		@apply uppercase;
+		@apply text-sm;
+		@apply font-bold;
+	}
+
+	p {
+		@apply text-base;
+		@apply leading-7;
+		@apply font-light;
+	}
+
+	input,
+	textarea {
+		@apply text-base;
+		@apply leading-7;
+		@apply font-light;
+	}
+
+	input:focus-visible,
+	textarea:focus-visible {
+		@apply outline-none;
+		@apply border-[#5b6ba6];
+	}
+}

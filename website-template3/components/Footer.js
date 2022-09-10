@@ -18,7 +18,7 @@ export default function Footer() {
 					{/* Contact form + socials */}
 					<div className="flex flex-col lg:flex-row">
 						<form
-							className="mb-10 lg:grow-1 lg:shrink-1 lg:mr-10"
+							className="mb-10 lg:grow lg:shrink lg:mr-10"
 							action="#"
 						>
 							<label
@@ -68,7 +68,7 @@ export default function Footer() {
 							/>
 						</form>
 
-						<ul className="lg:grow-1 lg:shrink-1">
+						<ul className="lg:grow lg:shrink">
 							<li className="flex mb-6 lg:mb-16">
 								<div className="inline-flex w-8 h-8 border-2 border-white/20 mr-3 items-center justify-center rounded-full">
 									<span>
